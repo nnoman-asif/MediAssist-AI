@@ -1,0 +1,42 @@
+# LLM
+openai>=1.60.0
+langchain-openai>=1.1.0,<2.0.0
+
+# Speech-to-Text
+transformers>=4.47.0,<5.0.0
+torch>=2.5.0,<3.0.0
+torchvision>=0.20.0,<1.0.0
+accelerate>=1.2.0,<2.0.0
+soundfile>=0.12.0
+librosa>=0.10.0,<1.0.0
+huggingface-hub>=0.24.0,<1.0.0
+
+# Text-to-Speech
+edge-tts>=7.0.0,<8.0.0
+
+# Agent framework
+langgraph>=1.0.0,<2.0.0
+
+# RAG
+langchain>=1.2.0,<2.0.0
+langchain-community>=0.4.0,<1.0.0
+langchain-text-splitters>=1.1.0,<2.0.0
+langchain-huggingface>=1.2.0,<2.0.0
+langchain-core>=1.2.0,<2.0.0
+faiss-cpu>=1.9.0,<2.0.0
+sentence-transformers>=3.3.0,<6.0.0
+pypdf>=5.0.0,<7.0.0
+
+# UI
+gradio>=5.10.0
+
+# Location
+googlemaps>=4.10.0,<5.0.0
+requests>=2.32.0,<3.0.0
+
+# MLOps
+mlflow>=2.19.0
+
+# Utilities
+python-dotenv>=1.0.0,<2.0.0
+numpy>=1.26.0,<3.0.0

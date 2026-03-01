@@ -1,0 +1,35 @@
+# Environment
+.env
+
+# Data (user-uploaded PDFs and vector indices)
+data/
+
+# Downloaded ML models
+models/
+
+# MLflow tracking
+mlruns/
+
+# Temp audio files (runtime)
+temp/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
