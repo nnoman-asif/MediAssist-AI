@@ -36,7 +36,7 @@ An AI-powered medical assistance chatbot that combines large language models wit
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/MediAssist.git
+git clone https://github.com/nnoman-asif/MediAssist.git
 cd MediAssist
 
 python -m venv venv
